@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="LogoMakr-3wnp8n.png" type="image/x-icon">
+    <title>Tfolio</title>
+</head>
+<script>
+    window.addEventListener("scroll", () => {
+        const header = document.querySelector("header");
+        if (window.scrollY > 0) {
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+    });
+</script>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav1">Tasnim<span>.dev</span></nav>
+            <div class="nav2">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#"><i title="" class="fa-solid fa-moon"></i></a></li>
+                </ul>
+            </div>
+        </header>
+        <section id="Home" class="hero">
+            <div class="hero-div">
+                <h1>
+                    Crafting Modern <br>
+                    Web Experiences
+                </h1>
+                <p class="hero-p">I design and develop user-friendly interfaces</p>
+                <div class="hero-btns">
+                    <button>Download CV</button>
+                    <button>Hire me</button>
+                </div>
+            </div>
+            
+            <div class="hero-img">
+                <img src="profile.jpg" height="250px">
+            </div>
+        </section>
+        <section id="Skills" class="content-name">
+            <h2>Skills</h2>
+            <div class="content-box">
+                <div class="lang-box glow">
+                    <div class="icon-box glow"><i class="fa-solid fa-code"></i></div>
+                    <p>HTML</p>
+                </div>
+                <div class="lang-box glow">
+                    <div class="icon-box glow"><i class="fa-solid fa-receipt"></i></div>
+                    <p>CSS</p>
+                </div>
+                <div class="lang-box glow">
+                    <div class="icon-box glow">JS</div>
+                    <p>JavaScript</p>
+                </div>
+                <div class="lang-box glow">
+                    <div class="icon-box glow"><i class="fa-brands fa-node-js"></i></div>
+                    <p>Node-JS</p>
+                </div>
+                <div class="lang-box glow">
+                    <div class="icon-box glow"><p class="ui-logo">UI/UX</p></div>
+                    <p>UI/UX</p>
+                </div>
+            </div>
+        </section>
+        <section id="Services" class="content-name serv-sec">
+            <h2>Services</h2>
+            <div class="service">
+                <div class="service-box">
+                    <div class="box-item glow">
+                        <div class="content">
+                            <i class="fa-solid fa-desktop"></i>
+                            <div class="sub-content">
+                                <p class="p-1">Web Designing</p>
+                                <p class="p-2">TLabs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="box-item glow">
+                        <div class="content">
+                            <i class="fa-solid fa-display"></i>
+                            <div class="sub-content">
+                                <p class="p-1">Web Development</p>
+                                <p class="p-2">TLabs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="box-item glow">
+                        <div class="content">
+                            <i class="fa-solid fa-computer"></i>
+                            <div class="sub-content">
+                                <p class="p-1">UI/UX Design</p>
+                                <p class="p-2">2019 - Present</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="Experience" class="content-name exp-sec">
+            <h2>Work Experience</h2>
+            <div class="service">
+                <div class="service-box">
+                    <div class="box-item glow">
+                        <div class="content">
+                            <i class="fa-solid fa-desktop"></i>
+                            <div class="sub-content">
+                                <p class="p-1">Junior Web Developer</p>
+                                <p class="p-2">2020 - Present</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="box-item glow">
+                        <div class="content">
+                            <div class="w-icon glow">321</div>
+                            <div class="sub-content">
+                                <p class="p-1">Web Developer</p>
+                                <p class="p-2">2019 - 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="box-item flex-column glow">
+                        <div class="content left">
+                            <div class="w-icon glow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                            <div class="sub-content">
+                                <p class="p-1">Web Developer</p>
+                                <p class="p-2">2022 - Present</p>
+                            </div>
+                        </div>
+                        <p class="p-2">Develop and maintain responsive websites, collaborating with senior developers, and optimizing web applications.</p>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section class="content-name projects">
+            <h2>Projects</h2>
+            <div class="project-box">
+                <div class="sub-project-box glow box1">
+                    <img src="Screenshot 2025-11-19 090917.png">
+                    <div class="para">
+                        <h5>Project One</h5>
+                        <p class="p-2">A coffee shop website that i developped</p>
+                    </div>
+                </div>
+
+                <div class="sub-project-box glow box2">
+                    <img src="Screenshot 2025-11-19 091732.png">
+                    <div class="para">
+                        <h5>Project Two</h5>
+                        <p class="p-2">A website of a Fashion House that i developped</p>
+                    </div>
+                </div>
+
+                <div class="sub-project-box glow box3">
+                    <img src="Screenshot 2025-11-19 091925.png">
+                    <div class="para">
+                        <h5>Project Three</h5>
+                        <p class="p-2">Unique Photography website that I designed!</p>
+                    </div>
+                </div>
+
+                <div class="sub-project-box glow box4">
+                    <img src="Screenshot 2025-11-19 092119.png">
+                    <div class="para">
+                        <h5>Project four</h5>
+                        <p class="p-2">A Senior advocate's website that i developped</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="" class="content-name contact-sec">
+            <h2>Contact Us</h2>
+            <p class="p-2">Feel free to get in touch with me by filling out the form below.</p>
+            <form>
+                <input class="contact-info glow" type="text" placeholder="Name" required>
+                <input class="contact-info glow" type="email" placeholder="Email" required>
+                <input type="text" class="contact-info area glow" placeholder="Message">
+                <button class="contact-info contact-btn glow" type="submit">Send Message</button>
+            </form>
+        </section>
+        <footer>
+            <ul>
+                <li><a href="#">Conditions of Use</a></li>
+                <li><a href="#">Privacy Notice</a></li>
+                <li><a href="#">Get to Know Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <p class="p-2">&copy; All rights resereved</p>
+        </footer>
+    </div>
+</body>
+</html>
